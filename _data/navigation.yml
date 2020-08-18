@@ -1,13 +1,13 @@
 # main links
 main:
-  - title: "About"
-    url: https://mmistakes.github.io/minimal-mistakes/about/
-  - title: "Lab"
-  - title: "Publications"
-  - title: "Code & Data"
-  - title: "Contact"
-  - title: Archive
-    sublinks:
-      - title: By Tag
-      - title: By Category
-      - title: By Year
+- title: "Home"
+  href: "/"
+
+- title: "News"
+  href: "/news/"
+
+- title: "Snippets"
+  sublinks:
+      - title: FAQ
+      - title: Piece 2
+      - title: Piece 3
