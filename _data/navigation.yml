@@ -1,13 +1,19 @@
 # main links
 main:
-- title: "Home"
-  href: "/"
-
-- title: "News"
-  href: "/news/"
-
-- title: "Snippets"
+- title: About
   sublinks:
-      - title: FAQ
-      - title: Piece 2
-      - title: Piece 3
+      - title: About Us
+      - title: Talks
+      - title: Outreach
+      - title: Neuroscience
+- title: Lab
+  sublinks:
+      - title: Members
+      - title: Philosophy
+      - title: Joining
+      - title: Location
+      - title: News
+      - title: Oscillatory Thoughts
+- title: Publications
+- title: Code & Data
+- title: Contact
