@@ -6,3 +6,8 @@ main:
   - title: "Publications"
   - title: "Code & Data"
   - title: "Contact"
+  - title: Archive
+    sublinks:
+      - title: By Tag
+      - title: By Category
+      - title: By Year
