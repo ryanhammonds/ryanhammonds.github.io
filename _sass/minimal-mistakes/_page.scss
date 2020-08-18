@@ -23,6 +23,8 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-left: 2em;
+  margin-right: 2em;
   min-height: 100vh;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -32,6 +34,8 @@ body {
 
 .initial-content,
 .search-content {
+  margin-left: 1em;
+  margin-right: 1em;
   flex: 1 0 auto;
 }
 
