@@ -16,6 +16,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 repository               : ryanhammonds/ryanhammonds.github.io
+github                   : [metadata]
 locale                   : "en-US"
 title                    : "VOYTEK LAB"
 title_separator          : "-"
