@@ -3,17 +3,30 @@ main:
 - title: About
   sublinks:
       - title: About Us
+        url: /about
       - title: Talks
+        url: /talks
       - title: Outreach
+        url: /outreach
       - title: Neuroscience
+        url: /neuroscience
 - title: Lab
   sublinks:
       - title: Members
+        url: /members
       - title: Philosophy
+        url: /philosophy
       - title: Joining
+        url: /joining
       - title: Location
+        url: /location
       - title: News
+        url: /news
       - title: Oscillatory Thoughts
+        url: /thoughts
 - title: Publications
+  url: /publications
 - title: Code & Data
+  url: /code
 - title: Contact
+  url: /contact

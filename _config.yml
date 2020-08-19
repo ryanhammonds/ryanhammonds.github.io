@@ -14,9 +14,11 @@
 remote_theme             : "mmistakes/minimal-mistakes@4.20.1"
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
-# Site Settings
+# Misc
 repository               : ryanhammonds/ryanhammonds.github.io
 github                   : [metadata]
+
+# Site Settings
 locale                   : "en-US"
 title                    : "VOYTEK LAB"
 title_separator          : "-"
@@ -169,6 +171,7 @@ kramdown:
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
+  parse_block_html: true
 
 
 # Sass/SCSS
