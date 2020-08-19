@@ -3,8 +3,24 @@
    ========================================================================== */
 
 .masthead {
-  position: relative;
-  border-bottom: 1px solid $border-color;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  margin-left: 1.5em;
+  margin-right: 5em;
+  padding-bottom: 1.5em;
+  padding-top: 1.5em;
+  padding-right: 5em;
+  background: white;
+  div:before {
+    content : "";
+    position: absolute;
+    left    : 0;
+    bottom  : 0;
+    height  : 1px;
+    width   : 90.5%;
+    border-bottom:1px solid $border-color;
+  }
   -webkit-animation: $intro-transition;
   animation: $intro-transition;
   -webkit-animation-delay: 0.15s;
@@ -13,13 +29,9 @@
 
   &__inner-wrap {
     @include clearfix;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 1em;
-    max-width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex;
+    display: fixed;
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
